@@ -24,7 +24,7 @@ export default function App() {
 					name="EmployeeList"
 					component={EmployeeList}
 					options={({ navigation }) => ({
-						title: 'Employees',
+						title: 'Employees List',
 						headerRight: () => (
 							<TouchableOpacity
 								style={{ marginRight: 15 }}
@@ -46,7 +46,7 @@ export default function App() {
 				<Stack.Screen
 					name="EmployeeDetail"
 					component={EmployeeDetail}
-					options={{ title: 'Employee Detail' }}
+					options={{ title: 'Employee Details' }}
 				/>
 				<Stack.Screen
 					name="EmployeeForm"
