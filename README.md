@@ -1,18 +1,18 @@
-#Guide
+# Guide
 
-##Start json server
+## Start json server
 
 ```bash
 npx json-server --watch db.json --port 3001
 ```
 
-##Start ngrok
+## Start ngrok
 
 ```bash
 ngrok http 3001
 ```
 
-##Start application
+## Start application
 
 ```bash
 npm run android
